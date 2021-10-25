@@ -20,7 +20,7 @@ Floats are integers with decimal places
 
 animal = "zebra"
 
-# the single quotes are really throwing me off! Does the variable include the double quotes?
+the single quotes are really throwing me off! Does the variable include the double quotes?
 
 1. How would you print the string `"zebra"` using the variable that you created above?
 
