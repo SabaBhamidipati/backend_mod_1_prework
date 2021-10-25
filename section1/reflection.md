@@ -39,4 +39,6 @@ gets
 1. Name and describe two common string methods:
 
 .length gives you the number of characters in a string including spaces
+
+
 .split splits a string into an array at any point where there are spaces
