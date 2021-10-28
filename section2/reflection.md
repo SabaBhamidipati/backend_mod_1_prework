@@ -55,14 +55,19 @@ hello("Sam I am")
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
+
 def hello_someone(name)
+
   puts name + " I am"
+
 end
 
 hello_someone("Daffy Duck")
 
 def hello_someone(name)
+
   puts "#{name} I am"
+
 end
 
 hello_someone("Daffy Duck")
@@ -73,4 +78,4 @@ When you pass an argument to the method, using the method definition and paramet
 
 1. What questions do you have about methods in Ruby?
 
-I need to go back over the concept of return, and understand why it isn't efficient to just run a calculation in a nested format, instead of assigning values to variables and then using their returned value to run other calculations. I imagine, for one thing, it would be neater, and easier for someone to look at and understand. 
+I need to go back over the concept of return, and understand why it isn't efficient to just run a calculation in a nested format, instead of assigning values to variables and then using their returned value to run other calculations. I imagine, for one thing, it would be neater, and easier for someone to look at and understand.
