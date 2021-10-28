@@ -16,24 +16,36 @@ You may want to take inputs from the user, or test conditions in situations wher
 1. What is the Ruby syntax for an if statement?
 
 if a ==
+
   puts
+
 elsif
+
   puts
+
 else
+
   puts
+
 end
 
 1. How do you add multiple conditions to an if statement?
-you can use && or || or use multiple elsif's
+  you can use && or || or use multiple elsif's
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
 if d == 0
+
   puts "d = 0"
+
 elsif d > 0
+
   puts "d > 0"
+
 else
+
   puts "d < 0"
+
 end
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
@@ -47,8 +59,10 @@ A method is a code block that runs multiple times in a program. It can be extrac
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
-def hello(greeting)
+def hello(greeting
+
   puts greeting
+  
 end
 
 hello("Sam I am")
