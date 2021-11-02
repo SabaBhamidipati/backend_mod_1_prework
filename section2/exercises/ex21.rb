@@ -16,7 +16,7 @@ end
 def divide(a, b)
   puts "DIVIDING #{a} / #{b}"
 # you can remove the return and it still works. Since this is a method,
-# the calculation runs as part of the script/code block 
+# the calculation runs as part of the script/code block
   a / b
 end
 
