@@ -57,6 +57,8 @@ puts first_name
 puts is_hungry
 puts number_of_pets
 
+puts "#{first_name}, #{is_hungry}, #{number_of_pets}"
+
 # YOU DO:
 # Using the variables below, print the total number of snacks to the terminal:
 healthy_snacks = 6;

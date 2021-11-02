@@ -10,10 +10,16 @@ p "Alan Turing"
 example_2 = 'Welcome to Turing'
 puts example_2
 
+puts 'Welcomg to Turing'
+
 # Write code that prints `99 bottles of pop on the wall...` to the terminal:
 example_3 = '99 bottles of pop on the wall...'
 puts example_3
 
+puts '99 bottles of pop on the wall...'
+
 # Write out code to log one line from your favorite song or movie.
 fave_line = 'you were gone for a long time'
 puts fave_line
+
+puts 'you were gone for a long time'
