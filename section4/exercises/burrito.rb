@@ -12,21 +12,25 @@ class Burrito
     @toppings = toppings
   end
 
-  def add_topping(cheese)
-    puts
+  def add_topping
+    puts "You can add the following toppings: #{toppings}"
   end
 
-  def remove_topping()
+  def remove_topping
+    puts "You can remove the following toppings: #{toppings}"
   end
 
-  def change_protein()
+  def change_protein
+    puts "Your protein options are the following: #{protein}"
   end
 end
 
-dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
+dinner = Burrito.new(["Beans", "Carnitas", "Chicken", "Ropa Vieja"], ["Rice", "Lettuce", "Quinoa"], ["cheese", "salsa", "guacamole"])
 p dinner.protein
 p dinner.base
 p dinner.toppings
-
+puts dinner.add_topping
+puts dinner.remove_topping
+puts dinner.change_protein
 # Quite honestly, this was a challenge I did not meet. I was confused by what was being asked.
 # I will work on it once I have submitted work.
